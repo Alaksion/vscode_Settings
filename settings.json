@@ -1,0 +1,50 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Omni", 
+
+    "material-icon-theme.folders.associations": {
+        "infra": "app",
+        "entities": "class",
+        "schemas": "class",
+        "typeorm": "database",
+        "repositories": "mappings",
+        "http": "container",
+        "migrations": "tools",
+        "modules": "components",
+        "implementations": "core",
+        "dtos": "typescript",
+        "fakes": "mock",
+        "websockets": "pipe",
+        "protos": "pipe",
+        "grpc": "pipe"
+      },
+
+      "typescript.suggest.autoImports": true,
+      "javascript.suggest.autoImports": true,
+    
+      "material-icon-theme.files.associations": {
+        "ormconfig.json": "database",
+        "tsconfig.json": "tune",
+        "*.proto": "3d"
+      },
+
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      },
+
+
+      "editor.tabSize": 4,
+      "editor.fontSize": 14,
+      "editor.lineHeight": 26,
+      "editor.fontFamily": "Fira Code",
+      "editor.fontLigatures": true,
+
+      "explorer.compactFolders": false,
+
+
+      "editor.renderLineHighlight": "gutter",
+      "editor.semanticHighlighting.enabled": false,
+      "explorer.confirmDelete": false,
+      "window.zoomLevel": 0
+
+  }
